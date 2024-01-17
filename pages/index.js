@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-function Home() {
+function index() {
   return (
     <>
     <Head>
@@ -11,4 +11,4 @@ function Home() {
   )
 }
 
-export default Home
+export default index
