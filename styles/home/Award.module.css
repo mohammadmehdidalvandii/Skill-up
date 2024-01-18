@@ -1,0 +1,34 @@
+.award{
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 3rem;
+}
+.award_item{
+    display: flex;
+    align-content: center;
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.6rem 0.4rem #EBEBF1;
+    padding: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+.award_item_icon{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--color-green-2);
+}
+.award_item_content{
+    display: block;
+    margin-right: 1rem;
+}
+.award_item_text{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-black);
+}
+.award_item_paraph{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
