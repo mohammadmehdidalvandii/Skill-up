@@ -1,0 +1,32 @@
+.title{
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
+.title_wrapper{
+display: block;
+text-align: center;
+width: 100%;
+}
+.title_text{
+    font-family: var(--font_black);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-black);
+}
+.title_text_color{
+    font-family: var(--font_black);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-green-1);
+}
+.title_paraph{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    font-family: var(--font_bold);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-text);
+}
