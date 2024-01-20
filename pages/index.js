@@ -4,6 +4,7 @@ import HomeSide from '@/components/template/index/HomeSide/HomeSide'
 import Award from '@/components/template/index/Award/Award'
 import CategoryCourses from '@/components/template/index/CategoryCourses/CategoryCourses'
 import CoursesFree from '@/components/template/index/CoursesFree/CoursesFree'
+import ProcessWork from '@/components/template/index/ProcessWork/ProcessWork'
 function index() {
   return (
     <>
@@ -14,6 +15,7 @@ function index() {
     <Award/>
     <CategoryCourses/>
     <CoursesFree/>
+    <ProcessWork/>
     </>
   )
 }
