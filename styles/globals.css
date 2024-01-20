@@ -50,3 +50,27 @@ body{
   font-family: var(--font-medium);
   direction: rtl;
 }
+
+
+
+/* """""""" Start style button green """"""""" */
+.buttonGreen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 auto;
+  width: 120px;
+  height: 2.5rem;
+  background-color: var(--color-green-3);
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-green-1);
+  transition: all 0.3s ease-out;
+}
+.buttonGreen:hover{
+  background-color: var(--color-green-1);
+  color: var(--color-white);
+}
+/* """""""" End style button green """"""""" */

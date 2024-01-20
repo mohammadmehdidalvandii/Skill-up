@@ -3,6 +3,7 @@ import Head from 'next/head'
 import HomeSide from '@/components/template/index/HomeSide/HomeSide'
 import Award from '@/components/template/index/Award/Award'
 import CategoryCourses from '@/components/template/index/CategoryCourses/CategoryCourses'
+import CoursesFree from '@/components/template/index/CoursesFree/CoursesFree'
 function index() {
   return (
     <>
@@ -12,6 +13,7 @@ function index() {
     <HomeSide/>
     <Award/>
     <CategoryCourses/>
+    <CoursesFree/>
     </>
   )
 }

@@ -1,0 +1,8 @@
+.coursesFree{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bgColor);
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
