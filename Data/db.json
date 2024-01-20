@@ -1,0 +1,52 @@
+{
+    "categoryCourses":[
+        {
+            "id":1,
+            "CourseName":"برنامه نویسی",
+            "CourseNumber": 22,
+            "icon":"faCode"
+        },
+        {
+            "id":2,
+            "CourseName":"مهندسی نرم افزار",
+            "CourseNumber": 18,
+            "icon":"faWindowRestore"
+        },
+        {
+            "id":3,
+            "CourseName":"سبک زندگی",
+            "CourseNumber": 21,
+            "icon":"faLeaf"
+        },
+        {
+            "id":4,
+            "CourseName":"علوم انسانی",
+            "CourseNumber": 15,
+            "icon":"faHeartbeat"
+        },
+        {
+            "id":5,
+            "CourseName":"بازار بورس و سهام",
+            "CourseNumber": 32,
+            "icon":"faLandmark"
+        },
+        {
+            "id":6,
+            "CourseName":"طراجی و گرافیک",
+            "CourseNumber": 25,
+            "icon":"faPhotoVideo"
+        },
+        {
+            "id":7,
+            "CourseName":"حسابداری ",
+            "CourseNumber": 5,
+            "icon":"faStamp"
+        },
+        {
+            "id":8,
+            "CourseName":"نگارش اکادمیک",
+            "CourseNumber": 4,
+            "icon":"faSchool"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+.categoryCourses{
+    display: block;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.categoryCourses_item{
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 15px 10px var(--color-bgColor);
+    border-radius: 0.5rem;
+    padding: 1.5rem 0;
+    transition: all 0.3s ease-out;
+}
+.categoryCourses_item:hover{
+    background-color: var(--color-green-1);
+}
+.categoryCourses_item:hover .categoryCourses_item_icon{
+    background-color: var(--color-white);
+}
+.categoryCourses_item:hover .categoryCourses_item_title{
+    color: var(--color-white);
+}
+.categoryCourses_item_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-green-3);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--color-green-1);
+}
+.categoryCourses_item_title{
+    display: block;
+    margin-top: 1rem;
+    font-family: var(--font-black);
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-text);
+}
+.categoryCourses_item_number{
+    display: block;
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-yellow);
+}

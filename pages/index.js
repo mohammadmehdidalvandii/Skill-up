@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import HomeSide from '@/components/template/index/HomeSide/HomeSide'
 import Award from '@/components/template/index/Award/Award'
+import CategoryCourses from '@/components/template/index/CategoryCourses/CategoryCourses'
 function index() {
   return (
     <>
@@ -10,6 +11,7 @@ function index() {
     </Head>
     <HomeSide/>
     <Award/>
+    <CategoryCourses/>
     </>
   )
 }

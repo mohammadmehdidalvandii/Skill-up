@@ -24,7 +24,7 @@ width: 100%;
     display: block;
     text-align: center;
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
     font-family: var(--font_bold);
     font-size: 1rem;
     font-weight: 500;
