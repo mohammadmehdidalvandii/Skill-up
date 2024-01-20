@@ -1,0 +1,113 @@
+.courseCard{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background-color: var(--color-white);
+    padding: 0.5rem;
+    border: 1px solid var(--color-bgColor);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease-out;
+}
+.courseCard:hover .courseCard_course_title{
+    color: var(--color-green-2);
+}
+.courseCard_imageIcon{
+    display: block;
+    position: relative;
+}
+.courseCard_img{
+width: 100%;
+}
+.courseCard_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    color: var(--color-yellow);
+}
+.courseCard_categoryPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 0.5rem;
+}
+.courseCard_category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.2rem 0.4rem;
+    background-color: var(--color-purple-1);
+}
+.courseCard_categoryText{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-purple-2);
+}
+.courseCard_price{
+    display: flex;
+    align-items: baseline;
+}
+
+.courseCard_price_number{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text)    ;
+}
+.courseCard_price_text{
+    display: block;
+    font-family: var(--font-bold);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-right: 0.3rem;
+}
+.courseCard_course_title{
+    margin: 1rem 0;
+    display: block;
+    width: 100%;
+    font-family: var(--font-black);
+    font-size: 1.2rem;
+    color: var(--color-text);
+    transition: all 0.3s ease-out;
+}
+.courseCard_time{
+    display: flex;
+    align-items: center;
+}
+.courseCard_time_icon{
+    font-size: 0.9rem;
+    color: var(--color-pink);
+}
+.courseCard_time_text{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-black);
+    margin-right: 0.2rem;
+}
+.courseCard_teacher{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--color-bgColor);
+}
+.courseCard_teacher_img{
+    width: 40px;
+    border-radius: 100%;
+}
+.courseCard_teacher_name{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-text);
+    margin-right: 0.2rem;
+}
