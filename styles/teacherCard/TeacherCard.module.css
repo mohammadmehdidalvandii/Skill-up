@@ -1,0 +1,49 @@
+.teacherCard{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-white);
+    box-shadow: 0 0 15px 10px var(--color-bgColor);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+.teacherCard:hover .teacherCard_teacherName{
+    color: var(--color-pink);
+}
+.teacherCard_img{
+    width: 100%;
+}
+.teacherCard_learn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-green-3);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-green-1);
+}
+.teacherCard_teacherName{
+display: block;
+margin: 0.6rem 0;
+font-size: 1rem;
+font-weight: 600;
+color: var(--color-black);
+}
+.teacherCard_student_iconNumber{
+    display: block;
+   padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+.teacherCard_student_icon{
+    font-size: 0.9rem;
+    margin-left: 0.2rem;
+}
+.teacherCard_student_number{
+
+}
