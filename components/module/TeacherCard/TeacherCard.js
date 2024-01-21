@@ -11,7 +11,6 @@ import Link from 'next/link';
 
 function TeacherCard() {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-12">
     <Link href='' className={style.teacherCard}>
         <img src="/images/t-1.png" alt="teacher image" className={style.teacherCard_img} />
         <span className={style.teacherCard_learn}>مدرس ریاضی و فیزیک</span>
@@ -23,7 +22,8 @@ function TeacherCard() {
             <span className={style.teacherCard_student_number}>2,500</span>
         </div>
     </Link>
-</div>
+//     <div className="col-lg-4 col-md-6 col-sm-12">
+// </div>
   )
 }
 

@@ -1,0 +1,10 @@
+.instructor{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bgColor);
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+}
+
+
+
