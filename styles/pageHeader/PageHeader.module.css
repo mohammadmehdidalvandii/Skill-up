@@ -1,0 +1,44 @@
+.pageHeader{
+    display: block;
+    width: 100%;
+    background-color: var(--color-green-3);
+    padding: 4rem 0;
+    margin-bottom: 3rem;
+}
+.pageHeader_content{
+    display: block; 
+    width: 100%;
+}
+.pageHeader_title{
+    display: block;
+    font-family: var(--font-black);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-black);
+}
+.pageHeader_wrapper{
+    display: flex;
+    align-items: center;
+}
+.pageHeader_link{   
+    display: block;
+    text-decoration: none;
+    font-family: var(--font-bold);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-left: 0.4rem;
+    transition: all 0.3s ease-out;
+}
+.pageHeader_link:hover{
+    color: var(--color-green-1);
+}
+.pageHeader_text{
+    display: block;
+    text-decoration: none;
+    font-family: var(--font-bold);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-green-1);
+    margin-right: 0.4rem;
+}
