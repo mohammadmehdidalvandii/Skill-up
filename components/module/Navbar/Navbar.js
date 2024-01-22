@@ -50,7 +50,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbar_item}>
-                                <Link href='' className={`${style.navbar_item_link} ${menuActive === '' ? `${style.navbar_item_linkActive}` : ``}`}>
+                                <Link href='/Shop' className={`${style.navbar_item_link} ${menuActive === '/Shop' ? `${style.navbar_item_linkActive}` : ``}`}>
                                     فروشگاه
                                 </Link>
                             </li>
@@ -96,7 +96,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbarRes_menu_item}>
-                                <Link href='' className={`${style.navbarRes_menu_link} ${menuActive === '' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
+                                <Link href='/Shop' className={`${style.navbarRes_menu_link} ${menuActive === '/Shop' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
                                     فروشگاه
                                 </Link>
                             </li>
