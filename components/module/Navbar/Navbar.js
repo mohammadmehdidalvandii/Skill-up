@@ -45,7 +45,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbar_item}>
-                                <Link href='' className={`${style.navbar_item_link} ${menuActive === '' ? `${style.navbar_item_linkActive}` : ``}`}>
+                                <Link href='/Courses' className={`${style.navbar_item_link} ${menuActive === '/Courses' ? `${style.navbar_item_linkActive}` : ``}`}>
                                     دوره های ما
                                 </Link>
                             </li>
@@ -91,7 +91,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbarRes_menu_item}>
-                                <Link href='' className={`${style.navbarRes_menu_link} ${menuActive === '' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
+                                <Link href='/Courses' className={`${style.navbarRes_menu_link} ${menuActive === '/Courses' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
                                     دوره های آموزشی
                                 </Link>
                             </li>
