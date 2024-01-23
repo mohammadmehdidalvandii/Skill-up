@@ -1,0 +1,6 @@
+.aboutComment{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bgColor);
+    padding: 3rem 0;
+}
