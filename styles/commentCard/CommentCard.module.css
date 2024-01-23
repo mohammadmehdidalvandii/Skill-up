@@ -1,0 +1,42 @@
+
+.commentCard{
+    display: block;
+    width: 100%;
+    background-color: var(--color-white);
+    padding: 0.7rem;
+    border: 1px solid #cecece;
+    border-radius: 0.5rem;
+}
+.commentCard_profile_image{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.commentCard_image{
+    display: block;
+}
+.commentCard_img{
+    width: 80px;
+    border-radius: 50%;
+}
+.commentCard_info{
+    display: block;
+    margin-right: 1rem;
+}
+.commentCard_name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-black);
+}
+.commentCard_job{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+.commentCard_desc{
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-2);
+}
