@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import RegisterForm from '@/components/template/register/RegisterForm'
 
 function Register() {
   return (
@@ -7,7 +8,7 @@ function Register() {
      <Head>
    <title>Skill-Up | ثبت نام </title>
    </Head>
-   <h1>register page</h1>
+   <RegisterForm/>
     </>
   )
 }
