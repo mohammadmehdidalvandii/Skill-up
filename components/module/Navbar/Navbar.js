@@ -55,7 +55,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbar_item}>
-                                <Link href='' className={`${style.navbar_item_link} ${menuActive === '' ? `${style.navbar_item_linkActive}` : ``}`}>
+                                <Link href='/About' className={`${style.navbar_item_link} ${menuActive === '/About' ? `${style.navbar_item_linkActive}` : ``}`}>
                                     درباه ما
                                 </Link>
                             </li>
@@ -101,12 +101,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbarRes_menu_item}>
-                                <Link href='' className={`${style.navbarRes_menu_link} ${menuActive === '' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
-                                    
-                                </Link>
-                            </li>
-                            <li className={style.navbarRes_menu_item}>
-                                <Link href='' className={`${style.navbarRes_menu_link} ${menuActive === '' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
+                                <Link href='/About' className={`${style.navbarRes_menu_link} ${menuActive === '/About' ? `${style.navbarRes_menu_linkActive}` : ``}`}>
                                     درباه ما
                                 </Link>
                             </li>
