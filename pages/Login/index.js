@@ -1,4 +1,5 @@
 import PageHeader from '@/components/module/PageHeader/PageHeader'
+import LoginForm from '@/components/template/login/LoginForm'
 import Head from 'next/head'
 import React from 'react'
 
@@ -9,7 +10,7 @@ function Login() {
    <title>Skill-Up | خانه </title>
    </Head>
    <PageHeader title='ثبت نام' text='ثبت نام'/>
-   <h1>page login</h1>  
+  <LoginForm/>  
    </>
   )
 }

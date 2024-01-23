@@ -1,0 +1,44 @@
+.loginForm{
+    display: block;
+    width: 100%;
+    margin: 3rem 0;
+}
+.loginForm_wrapper{
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid #cccc;
+    border-radius: 0.5rem;
+    overflow: hidden    ;
+}
+.loginForm_imageIcon{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.loginForm_img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+.loginForm_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2rem;
+    margin: 0 auto;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #ececec;
+    font-size: 1.7rem;
+    color: var(--color-green-1);
+}
+
+
