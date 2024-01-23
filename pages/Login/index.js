@@ -7,7 +7,7 @@ function Login() {
   return (
    <>
    <Head>
-   <title>Skill-Up | خانه </title>
+   <title>Skill-Up | ورود </title>
    </Head>
    <PageHeader title='ثبت نام' text='ثبت نام'/>
   <LoginForm/>  

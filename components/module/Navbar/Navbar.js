@@ -64,7 +64,7 @@ function Navbar() {
                     <div className={style.navbar_left}>
                         <div className={style.navbar_wrapper_link}>
                             <Link href='/Login' className={`${style.navbar_link} ${menuActive === '/Login' ? `${style.navbar_linkActive}` : ``}`}>ورود</Link>
-                            <Link href='' className={`${style.navbar_link} ${menuActive === '' ? `${style.navbar_linkActive}` : ``}`}>ثبت نام</Link>
+                            <Link href='/Register' className={`${style.navbar_link} ${menuActive === '/Register' ? `${style.navbar_linkActive}` : ``}`}>ثبت نام</Link>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className={style.navbarRes_menu_item}>
-                                <Link href='' className={`${style.navbarRes_menu_link} ${menuActive === '' ? `${style.navbar_item_linkActive}` : ``}`}>
+                                <Link href='/Register' className={`${style.navbarRes_menu_link} ${menuActive === '/Register' ? `${style.navbar_item_linkActive}` : ``}`}>
                                     ثبت نام
                                 </Link>
                             </li>
