@@ -1,5 +1,5 @@
 import PageHeader from '@/components/module/PageHeader/PageHeader'
-import AboutDetail from '@/components/template/about/AboutDetail'
+import AboutDetail from '@/components/template/about/AboutDetail/AboutDetail'
 import Head from 'next/head'
 import React from 'react'
 
