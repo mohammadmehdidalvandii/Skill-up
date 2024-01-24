@@ -1,0 +1,57 @@
+.courseDetailsPage{
+    display: block;
+    width: 100%;
+}
+.courseDetailsPage_content{
+    display: block;
+    width: 100%;
+}
+.courseDetailsPage_title{
+font-family: var(--font-black);
+font-size: 1.5rem;
+font-weight: 600;
+color: var(--color-black);
+}
+.courseDetailsPage_teacher{
+    display: flex;
+    align-items: center;
+}
+.courseDetailsPage_teacher_img{
+    width: 120px;
+    border-radius: 50%;
+}
+.courseDetailsPage_teacher_textName{
+    display: block;
+    margin-right: 0.6rem;
+}
+.courseDetailsPage_teacher_text{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text );
+}
+.courseDetailsPage_teacher_name{
+font-family: var(--font-bold);
+font-size: 1rem;
+font-weight: 600;
+color: var(--color-text-2);
+}
+
+.courseDetailsPage_items{
+    display: block;
+    width: 100%;
+}
+.courseDetailsPage_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+.courseDetailsPage_item_icon{
+    font-size: 1rem;
+    color: var(--color-blue-2);
+}
+.courseDetailsPage_item_text{
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-black);
+}
