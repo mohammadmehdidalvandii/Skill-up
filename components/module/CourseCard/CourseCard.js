@@ -40,10 +40,10 @@ function CourseCard() {
                             <span className={style.courseCard_time_text}>2ساعت 5دقیقه</span>
                         </div>
 
-                        <Link href='' className={style.courseCard_teacher}>
+                        <div className={style.courseCard_teacher}>
                             <img src="/images/te-1.jpg" alt="" className={style.courseCard_teacher_img} />
                             <span className={style.courseCard_teacher_name}>امین زمانی</span>
-                        </Link>
+                        </div>
                     </Link>
                 </div>
     </>
