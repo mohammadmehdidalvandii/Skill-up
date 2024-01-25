@@ -1,0 +1,6 @@
+.teacher{
+    display: block;
+    width: 100%;
+    background-color: var(--color-bgColor);
+    padding: 4rem 0;
+}
