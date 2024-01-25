@@ -56,7 +56,7 @@ function Footer() {
                     <h5 className={style.footer_title}>تمام بخش ها</h5>
                 </li>
                 <li className={style.footer_menuItem}>
-                    <Link href='' className={style.footer_menuItem_link}>منو</Link>
+                    <Link href='/Teachers' className={style.footer_menuItem_link}>لیست مدرسین</Link>
                 </li>
                 <li className={style.footer_menuItem}>
                     <Link href='' className={style.footer_menuItem_link}>ویژگی جذاب</Link>
