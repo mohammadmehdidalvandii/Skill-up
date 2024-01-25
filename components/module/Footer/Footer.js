@@ -43,7 +43,7 @@ function Footer() {
                     <Link href='' className={style.footer_menuItem_link}>دوره آموزشی</Link>
                 </li>
                 <li className={style.footer_menuItem}>
-                    <Link href='' className={style.footer_menuItem_link}>تماس با ما</Link>
+                    <Link href='/ContactUs' className={style.footer_menuItem_link}>تماس با ما</Link>
                 </li>
                 <li className={style.footer_menuItem}>
                     <Link href='' className={style.footer_menuItem_link}>لیست بلاگ</Link>
