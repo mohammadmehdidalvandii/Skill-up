@@ -3,6 +3,7 @@ import style from '@/styles/courseDetails/CourseDetail.module.css'
 import CourseDetailIntroduction from '../CourseDetailIntroduction/CourseDetailIntroduction'
 import CourseDetailHeadline from '../CourseDetailHeadline/CourseDetailHeadline'
 import CourseDetailTeacher from '../CourseDetailTeacher/CourseDetailTeacher'
+import CourseDetailComments from '../CourseDetailComments'
 
 
 
@@ -34,7 +35,7 @@ function CourseDetail() {
             {menuCourse === 'introduction' && (<CourseDetailIntroduction/>)}
             {menuCourse === 'headline' && (<CourseDetailHeadline/>)}
             {menuCourse === 'teacher' && (<CourseDetailTeacher/>)}
-            {menuCourse === 'comments' && (<span>comments</span>)}
+            {menuCourse === 'comments' && (<CourseDetailComments/>)}
           </div>
         </div>
     </section>
