@@ -3,6 +3,7 @@ import Head from 'next/head'
 import PageHeader from '@/components/module/PageHeader/PageHeader'
 import CourseDetailsPage from '@/components/template/courseDetails/CourseDetailsPage/CourseDetailsPage'
 import CourseDetail from '@/components/template/courseDetails/CourseDetail/CourseDetail'
+import CourseDetailsInfo from '@/components/template/courseDetails/CourseDetailsInfo/CourseDetailsInfo'
 
 function CourseDetails() {
   return (
@@ -17,7 +18,9 @@ function CourseDetails() {
             <CourseDetailsPage/>
             <CourseDetail/>
         </div>
-        <div className="col-lg-4"></div>
+        <div className="col-lg-4">
+          <CourseDetailsInfo/>
+        </div>
      </div>
      </div>
     </>
