@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import style from '@/styles/courseDetails/CourseDetail.module.css'
 import CourseDetailIntroduction from '../CourseDetailIntroduction/CourseDetailIntroduction'
 import CourseDetailHeadline from '../CourseDetailHeadline/CourseDetailHeadline'
+import CourseDetailTeacher from '../CourseDetailTeacher/CourseDetailTeacher'
 
 
 
@@ -32,7 +33,7 @@ function CourseDetail() {
           <div className="col-12">
             {menuCourse === 'introduction' && (<CourseDetailIntroduction/>)}
             {menuCourse === 'headline' && (<CourseDetailHeadline/>)}
-            {menuCourse === 'teacher' && (<span>teacher</span>)}
+            {menuCourse === 'teacher' && (<CourseDetailTeacher/>)}
             {menuCourse === 'comments' && (<span>comments</span>)}
           </div>
         </div>

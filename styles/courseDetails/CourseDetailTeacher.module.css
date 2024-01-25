@@ -1,0 +1,34 @@
+.courseDetailTeacher{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+.courseDetailTeacher_content{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 1rem;  
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px 8px #efefef;
+}
+.courseDetailTeacher_img{
+    max-width: 200px;
+}
+.courseDetailTeacher_info{
+    display: block;
+    margin-right: 2rem;
+}
+.courseDetailTeacher_name{
+    display: block;
+    width: 100%;
+    font-family: var(--font-bold);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-black);
+}
+.courseDetailTeacher_desc{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
