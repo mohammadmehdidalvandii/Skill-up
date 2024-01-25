@@ -1,0 +1,42 @@
+.courseDetail{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* <<<<<<<<< Start style image >>>>>>> */
+.courseDetail_imageCourse{
+    width: 100%;
+    border-radius: 1rem;
+}
+/* <<<<<<<<< End style image >>>>>>> */
+
+/* <<<<<<<<< Start Style button >>>>>>> */
+.courseDetail_buttons{
+    display: flex;
+    align-items: center;
+}
+.courseDetail_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5rem;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 2.5rem; 
+    border-radius: 0.5rem;
+    background-color: var(--color-green-3);
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: all 0.3s ease-out;
+}
+.courseDetail_btn:hover{
+    background-color: var(--color-green-1);
+    color: var(--color-white);
+}
+.courseDetail_btnActive{
+    background-color: var(--color-green-1);
+    color: var(--color-white);
+} 
+/* <<<<<<<<< End Style button >>>>>>> */
