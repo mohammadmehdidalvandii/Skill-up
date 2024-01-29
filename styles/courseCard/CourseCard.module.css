@@ -59,6 +59,7 @@ width: 100%;
 .courseCard_price_number{
     font-size: 0.9rem;
     font-weight: 600;
+    margin-left: 0.5rem;
     color: var(--color-text)    ;
 }
 .courseCard_price_text{
@@ -67,7 +68,7 @@ width: 100%;
     font-size: 1rem;
     font-weight: 600;
     color: var(--color-black);
-    margin-right: 0.3rem;
+    margin-right: 0.5rem;
 }
 .courseCard_course_title{
     margin: 1rem 0;

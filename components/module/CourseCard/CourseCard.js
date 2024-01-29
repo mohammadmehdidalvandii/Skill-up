@@ -9,13 +9,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faLock } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
 
-function CourseCard() {
+function CourseCard({image,category,title,time,id}) {
   return (
     <>
          <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <Link href='' className={style.courseCard}>
                         <div className={style.courseCard_imageIcon}>
-                            <img src="/images/cr-1.jpg" alt="" className={style.courseCard_img} />
+                            <img src={image} alt="" className={style.courseCard_img} />
                             <span className={style.courseCard_icon}>
                                 <FontAwesomeIcon icon={faLock}/>
                             </span>
@@ -23,7 +23,7 @@ function CourseCard() {
 
                         <div className={style.courseCard_categoryPrice}>
                             <div className={style.courseCard_category}>
-                                <span className={style.courseCard_categoryText}>برنامه نویسی</span>
+                                <span className={style.courseCard_categoryText}>{category}</span>
                             </div>
                             <div className={style.courseCard_price}>
                                 <span className={style.courseCard_price_text}>1,490,000</span>
@@ -31,13 +31,13 @@ function CourseCard() {
                             </div>
                         </div>
 
-                        <h4 className={style.courseCard_course_title}>آموزش ASP.Net - ساخت سایت شخصی</h4>
+                        <h4 className={style.courseCard_course_title}>{title}</h4>
 
                         <div className={style.courseCard_time}>
                             <span className={style.courseCard_time_icon}>
                                 <FontAwesomeIcon icon={faClock}/>
                             </span>
-                            <span className={style.courseCard_time_text}>2ساعت 5دقیقه</span>
+                            <span className={style.courseCard_time_text}>{time}</span>
                         </div>
 
                         <div className={style.courseCard_teacher}>

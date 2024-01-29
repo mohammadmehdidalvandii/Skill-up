@@ -48,5 +48,56 @@
             "CourseNumber": 4,
             "icon":"faSchool"
         }
+    ],
+
+    "Courses":[
+        {
+            "id":1,
+            "image":"/images/cr-1.jpg",
+            "title":"آموزش ASP.NET",
+            "category":"برنامه نویسی",
+            "price":1490000,
+            "time":"2ساعت 50 دقیقه"
+        },
+        {
+            "id":2,
+            "image":"/images/cr-2.jpg",
+            "title":"آموزش حسابداری",
+            "category":"حسابداری",
+            "price":1290000,
+            "time":"56 ساعت"
+        },
+        {
+            "id":3,
+            "image":"/images/cr-3.jpg",
+            "title":"آموزش فیزیک تجربی و ریاضی ",
+            "category":"فیزک",
+            "price":990000,
+            "time":"20 ساعت"
+        },
+        {
+            "id":4,
+            "image":"/images/cr-4.jpg",
+            "title":"آموزش Laravel",
+            "category":"برنامه نویسی",
+            "price":3200000,
+            "time":"19 ساعت 50 دقیقه"
+        },
+        {
+            "id":5,
+            "image":"/images/cr-5.jpg",
+            "title":"آموزش ادوبی Premire",
+            "category":"گرافیک",
+            "price":2400000,
+            "time":"32 ساعت"
+        },
+        {
+            "id":6,
+            "image":"/images/cr-6.jpg",
+            "title":"آموزش Python",
+            "category":"برنامه نویسی",
+            "price":6500000,
+            "time":"130 ساعت"
+        }
     ]
 }
