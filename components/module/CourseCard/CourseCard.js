@@ -13,7 +13,7 @@ function CourseCard({image,category,title,time,id}) {
   return (
     <>
          <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <Link href='' className={style.courseCard}>
+                    <Link href={`/Courses/${id}`} className={style.courseCard}>
                         <div className={style.courseCard_imageIcon}>
                             <img src={image} alt="" className={style.courseCard_img} />
                             <span className={style.courseCard_icon}>
