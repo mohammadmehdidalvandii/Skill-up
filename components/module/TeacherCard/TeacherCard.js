@@ -9,9 +9,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
 
-function TeacherCard({image ,job, teacherName , student}) {
+function TeacherCard({image ,job, teacherName , student ,id}) {
   return (
-    <Link href='' className={style.teacherCard}>
+    <Link href={`/Teachers/${id}`} className={style.teacherCard}>
         <img src={image} alt="teacher image" className={style.teacherCard_img} />
         <span className={style.teacherCard_learn}>{job}</span>
         <h6 className={style.teacherCard_teacherName}>{teacherName}</h6>

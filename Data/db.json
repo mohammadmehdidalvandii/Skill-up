@@ -104,42 +104,42 @@
         {
             "id":1,
             "teacherName":"نرگس حسینی",
-            "image":"/images/t-1.png",
+            "image":"/images/t-2.png",
             "job":"مدرس شیمی",
             "student":2500
         },
         {
             "id":2,
             "teacherName":"سروش نجفی زاده ",
-            "image":"/images/t-2.png",
+            "image":"/images/t-1.png",
             "job":"مدرس ریاضیات",
             "student":3200
         },
         {
             "id":3,
             "teacherName":"نادیا ناصری",
-            "image":"/images/t-3.png",
+            "image":"/images/t-4.png",
             "job":"مدرس تاریخ",
             "student":2200
         },
         {
             "id":4,
             "teacherName":"متین کفاشیان",
-            "image":"/images/t-4.png",
+            "image":"/images/t-3.png",
             "job":"مدرس انگلیسی",
             "student":3100
         },
         {
             "id":5,
             "teacherName":"مرضیه قاسمی نیا",
-            "image":"/images/t-5.png",
+            "image":"/images/t-6.png",
             "job":"مدرس جاوا اسکریپت",
             "student":2800
         },
         {
             "id":6,
             "teacherName":"مهرداد علیزاده",
-            "image":"/images/t-6.png",
+            "image":"/images/t-5.png",
             "job":"مدرس شیمی",
             "student":1500
         }
