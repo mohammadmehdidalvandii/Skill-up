@@ -8,16 +8,19 @@ import CourseDetailComments from '../CourseDetailComments'
 
 
 
-function CourseDetail() {
+
+function CourseDetail({image}) {
+
   const [menuCourse , setMenuCourse] = useState('introduction')
   const handlerMenuCourse = (menuID)=>{
     setMenuCourse(menuID)
   }
+
   return (
     <section className={style.courseDetail}>
         <div className="row">
             <div className="col-12">
-                <img src="/images/cr-1.jpg" alt="images course" className={style.courseDetail_imageCourse} />
+                <img src={image}alt="images course" className={style.courseDetail_imageCourse} />
             </div>
         </div>
         <div className="row mt-4">
@@ -32,7 +35,7 @@ function CourseDetail() {
         </div>
         <div className="row mt-4">
           <div className="col-12">
-            {menuCourse === 'introduction' && (<CourseDetailIntroduction/>)}
+            {menuCourse === 'introduction' && (<CourseDetailIntroduction />)}
             {menuCourse === 'headline' && (<CourseDetailHeadline/>)}
             {menuCourse === 'teacher' && (<CourseDetailTeacher/>)}
             {menuCourse === 'comments' && (<CourseDetailComments/>)}

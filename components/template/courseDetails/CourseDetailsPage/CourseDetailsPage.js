@@ -7,14 +7,14 @@ config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faStar, faUser, faVideo } from "@fortawesome/free-solid-svg-icons";
 
-function CourseDetailsPage() {
+function CourseDetailsPage({title}) {
   return (
   <section className={style.courseDetailsPage}>
  
         <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className={style.courseDetailsPage_content}>
-                    <h5 className={style.courseDetailsPage_title}>آموزش تدوین و میکس ویدئو با Premier</h5>
+                    <h5 className={style.courseDetailsPage_title}>{title}</h5>
                     <div className={style.courseDetailsPage_teacher}>
                         <img src="/images/user-1.jpg" alt="" className={style.courseDetailsPage_teacher_img} />
                         <div className={style.courseDetailsPage_teacher_textName}>

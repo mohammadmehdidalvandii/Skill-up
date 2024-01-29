@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from '@/styles/course/Course.module.css'
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -7,8 +7,10 @@ config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import CourseCard from '@/components/module/CourseCard/CourseCard';
+import db from '@/Data/db.json'
 
 function Course() {
+    const [courses , setCourses] =useState(db.Courses)
   return (
    <section className={style.course}>
     <div className="container">
@@ -55,12 +57,13 @@ function Course() {
             <div className="col-lg-9 col-md-7 col-sm-12">
                 <div className={style.course_bg}>
                     <div className="row">
-                        <CourseCard/>
-                        <CourseCard/>
-                        <CourseCard/>
-                        <CourseCard/>
-                        <CourseCard/>
-                        <CourseCard/>
+                    {courses.map(course=>(
+                    <CourseCard 
+                     key={course.id}
+                    {...course}
+                    price={course.price.toLocaleString()}
+                    />
+                ))}
                     </div>
                 </div>
             </div>

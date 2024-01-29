@@ -7,7 +7,7 @@ config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faFile, faGamepad, faTicket, faUser } from "@fortawesome/free-solid-svg-icons";
 
-function CourseDetailsInfo() {
+function CourseDetailsInfo({text , price}) {
   return (
     <section className={style.courseDetailsInfo}>
       <div className="row">
@@ -35,7 +35,7 @@ function CourseDetailsInfo() {
                         </span>
                         <span className={style.courseDetailsInfo_item_title}>موضوع:</span>
                     </div>
-                        <span className={style.courseDetailsInfo_item_text}>Premiere</span>
+                        <span className={style.courseDetailsInfo_item_text}>{text}</span>
                 </li>
                 <li className={style.courseDetailsInfo_item}>
                     <div className={style.courseDetailsInfo_item_TitleIcon}>
@@ -65,7 +65,7 @@ function CourseDetailsInfo() {
                         <span className={style.courseDetailsInfo_item_text}>مقدماتی</span>
                 </li>
             </ul>
-            <span className={style.courseDetailsInfo_price}>1,200,000 تومان</span>
+            <span className={style.courseDetailsInfo_price}>{price} تومان</span>
             <button className={style.CourseDetailsInfo_btn}>خرید دوره</button>
           </div>
         </div>
